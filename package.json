@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "build:all": "yarn workspace foreach -pt run build",
-    "new-package": "yarn hygen new package"
+    "new-package": "yarn hygen new package",
+    "version-packages": "yarn changeset version",
+    "release": "yarn build:all && yarn changeset publish"
   },
   "workspaces": [
     "packages/*"
