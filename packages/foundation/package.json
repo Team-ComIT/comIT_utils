@@ -1,7 +1,8 @@
 {
   "name": "@team-comit/foundation",
   "version": "0.0.0",
-  "main": "./build/index.js",
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build:clean": "rm -rf ./build",

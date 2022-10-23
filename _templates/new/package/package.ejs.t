@@ -5,6 +5,7 @@ to: packages/<%=name%>/package.json
   "name": "@team-comit/<%=name%>",
   "version": "0.0.0",
   "main": "./build/index.js",
+  "types": "./build/index.d.ts"
   "license": "MIT",
   "scripts": {
     "build:clean": "rm -rf ./build",
