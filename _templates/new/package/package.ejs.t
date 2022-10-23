@@ -17,6 +17,9 @@ to: packages/<%=name%>/package.json
   },
   "files": [
     "./build"
-  ],
+  ], 
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "yarn@3.2.4"
 }
