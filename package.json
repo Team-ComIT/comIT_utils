@@ -3,7 +3,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build:all": "yarn workspace foreach -pt run build",
+    "build:all": "yarn workspaces foreach -pt run build",
     "new-package": "yarn hygen new package",
     "version-packages": "yarn changeset version",
     "release": "yarn build:all && yarn changeset publish"
