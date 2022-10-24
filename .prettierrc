@@ -7,7 +7,6 @@
   "trailingComma": "es5",
   "printWidth": 80,
   "arrowParens": "always",
-  "orderedImports": false,
   "requirePragma": false,
   "bracketSpacing": true,
   "jsxBracketSameLine": false,

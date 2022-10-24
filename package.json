@@ -6,7 +6,8 @@
     "build:all": "yarn workspaces foreach -pt run build",
     "new-package": "yarn hygen new package",
     "version-packages": "yarn changeset version",
-    "release": "yarn build:all && yarn changeset publish"
+    "release": "yarn build:all && yarn changeset publish",
+    "format": "yarn prettier --write ./packages"
   },
   "workspaces": [
     "packages/*"
