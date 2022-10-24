@@ -605,13 +605,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:^2":
-  version: 2.7.1
-  resolution: "@types/prettier@npm:2.7.1"
-  checksum: 5e3f58e229d6c73b5f5cae2e8f96c1c4a5b5805f83459e17a045ba8e96152b1d38e86b63e3172fb159dac923388699660862b75b2d37e54220805f0e691e26f1
-  languageName: node
-  linkType: hard
-
 "@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
@@ -2953,9 +2946,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@changesets/cli": ^2.25.0
-    "@types/prettier": ^2
     hygen: ^6.2.11
-    prettier: ^2.7.1
     typescript: ^4.8.4
   languageName: unknown
   linkType: soft

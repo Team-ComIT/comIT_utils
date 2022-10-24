@@ -39,9 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@changesets/cli", "npm:2.25.0"],\
-            ["@types/prettier", "npm:2.7.1"],\
             ["hygen", "npm:6.2.11"],\
-            ["prettier", "npm:2.7.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "linkType": "SOFT"\
@@ -715,15 +713,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-normalize-package-data-npm-2.4.1-c31c56ae6a-e87bccbf11.zip/node_modules/@types/normalize-package-data/",\
           "packageDependencies": [\
             ["@types/normalize-package-data", "npm:2.4.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/prettier", [\
-        ["npm:2.7.1", {\
-          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.7.1-d46ada27e6-5e3f58e229.zip/node_modules/@types/prettier/",\
-          "packageDependencies": [\
-            ["@types/prettier", "npm:2.7.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3357,9 +3346,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["root-workspace-0b6124", "workspace:."],\
             ["@changesets/cli", "npm:2.25.0"],\
-            ["@types/prettier", "npm:2.7.1"],\
             ["hygen", "npm:6.2.11"],\
-            ["prettier", "npm:2.7.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "linkType": "SOFT"\
