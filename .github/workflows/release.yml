@@ -2,10 +2,7 @@ name: Production-Release
 
 on:
   push:
-    paths:
-      - ".changeset/**"
-      - "packages/**"
-    branch: [ main ]
+    branch: [main]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
