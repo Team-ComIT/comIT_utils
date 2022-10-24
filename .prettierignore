@@ -1,0 +1,7 @@
+**/build/*
+.pnp.cjs
+.pnp.loader.mjs
+.github
+**/README.md
+_template
+.vscode
