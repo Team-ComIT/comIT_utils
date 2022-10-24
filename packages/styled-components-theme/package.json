@@ -1,8 +1,5 @@
----
-to: packages/<%=name%>/package.json
----
 {
-  "name": "@team-comit/<%=name%>",
+  "name": "@team-comit/styled-components-theme",
   "version": "0.0.0",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -12,12 +9,17 @@ to: packages/<%=name%>/package.json
     "build": "yarn build:clean && tsc && node ./esbuild.config.js"
   },
   "devDependencies": {
+    "@team-comit/foundation": "1.0.0",
+    "@types/react": "^18.0.21",
+    "@types/styled-components": "^5",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
-    "esbuild": "^0.15.10"
+    "esbuild": "^0.15.10",
+    "react": "^18.2.0",
+    "styled-components": "^5.3.6"
   },
   "files": [
     "./build"
-  ], 
+  ],
   "publishConfig": {
     "access": "public"
   },
