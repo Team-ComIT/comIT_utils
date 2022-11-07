@@ -1,5 +1,11 @@
 # @team-comit/foundation
 
+## 1.0.1
+
+### Patch Changes
+
+- b8bd8c4: fix type build pnp error
+
 ## 1.0.0
 
 ### Major Changes

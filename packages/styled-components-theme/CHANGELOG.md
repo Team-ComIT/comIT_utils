@@ -1,5 +1,13 @@
 # @team-comit/styled-components-theme
 
+## 1.0.1
+
+### Patch Changes
+
+- b8bd8c4: fix type build pnp error
+- Updated dependencies [b8bd8c4]
+  - @team-comit/foundation@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
