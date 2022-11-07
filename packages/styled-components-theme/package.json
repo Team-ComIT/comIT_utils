@@ -1,6 +1,6 @@
 {
   "name": "@team-comit/styled-components-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "license": "MIT",
@@ -26,7 +26,7 @@
   },
   "packageManager": "yarn@3.2.4",
   "dependencies": {
-    "@team-comit/foundation": "1.0.0",
+    "@team-comit/foundation": "1.0.1",
     "react": "^18.2.0",
     "react-is": "^18.2.0",
     "styled-components": "^5.3.6"
