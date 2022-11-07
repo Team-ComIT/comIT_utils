@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build:clean": "rm -rf ./build",
-    "build": "yarn build:clean && tsc && node ./esbuild.config.js"
+    "build": "yarn build:clean && tsc && node ./esbuild.config.js",
+    "build:type": "yarn pnpify tsc"
   },
   "devDependencies": {
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
