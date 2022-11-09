@@ -26,7 +26,7 @@
   },
   "packageManager": "yarn@3.2.4",
   "dependencies": {
-    "@team-comit/foundation": "1.0.1",
+    "@team-comit/foundation": "workspace:*",
     "react": "^18.2.0",
     "react-is": "^18.2.0",
     "styled-components": "^5.3.6"

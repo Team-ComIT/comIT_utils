@@ -15,7 +15,7 @@ jobs:
           node-version: 16
 
       - name: Install packages
-        run: yarn install --immutable
+        run: yarn install --immutable --immutable-cache
 
       - name: Build packages
         run: yarn build:all

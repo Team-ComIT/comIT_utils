@@ -560,7 +560,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@team-comit/foundation@1.0.0, @team-comit/foundation@workspace:packages/foundation":
+"@team-comit/foundation@workspace:*, @team-comit/foundation@workspace:packages/foundation":
   version: 0.0.0-use.local
   resolution: "@team-comit/foundation@workspace:packages/foundation"
   dependencies:
@@ -573,7 +573,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@team-comit/styled-components-theme@workspace:packages/styled-components-theme"
   dependencies:
-    "@team-comit/foundation": 1.0.0
+    "@team-comit/foundation": "workspace:*"
     "@types/react": ^18.0.21
     "@types/react-dom": ^18
     "@types/styled-components": ^5.1.26
