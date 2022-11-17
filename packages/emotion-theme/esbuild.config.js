@@ -8,6 +8,7 @@ esbuild
     platform: "node",
     outdir: "./build",
     bundle: true,
+    external: ["@emotion/react", "react"],
     plugins: [pnpPlugin()],
   })
   .catch(() => process.exit(1));

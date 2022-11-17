@@ -12,15 +12,20 @@
     "pre-release": "yarn pack"
   },
   "devDependencies": {
+    "@types/react": "^18.0.21",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
     "@yarnpkg/pnpify": "^4.0.0-rc.27",
     "esbuild": "^0.15.10"
   },
   "files": [
     "./build"
-  ], 
+  ],
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "react": "^18.2.0"
+  }
 }
