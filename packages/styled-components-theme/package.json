@@ -8,7 +8,8 @@
     "build": "yarn build:clean && yarn build:type && yarn build:bundle",
     "build:clean": "rm -rf ./build",
     "build:bundle": "node ./esbuild.config.js",
-    "build:type": "yarn pnpify tsc"
+    "build:type": "yarn build:clean && yarn pnpify tsc",
+    "pre-release": "yarn pack"
   },
   "devDependencies": {
     "@types/react": "^18.0.21",

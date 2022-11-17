@@ -11,7 +11,8 @@ to: packages/<%=name%>/package.json
     "build": "yarn build:clean && yarn build:type && yarn build:bundle",
     "build:clean": "rm -rf ./build",
     "build:bundle": "node ./esbuild.config.js",
-    "build:type": "yarn pnpify tsc"
+    "build:type": "yarn build:clean && yarn pnpify tsc",
+    "pre-release": "yarn pack"
   },
   "devDependencies": {
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
