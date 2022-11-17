@@ -1,3 +1,1 @@
-export const hello = () => {
-  console.log("hello emotion-theme");
-};
+export { default as ComitStyleProvider } from "./ComitStyleProvider";

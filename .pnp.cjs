@@ -876,8 +876,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@team-comit/emotion-theme", "workspace:packages/emotion-theme"],\
             ["@emotion/react", "virtual:2a35fa9f3fefc304221a1e8edc7b10ba4500a56910314591518a532859f4638042a69453e114d2e925898ccb7fedf0dbafbe5bd4c140302a80322e81ecb282e1#npm:11.10.5"],\
+            ["@team-comit/foundation", "workspace:packages/foundation"],\
             ["@types/react", "npm:18.0.21"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:2a35fa9f3fefc304221a1e8edc7b10ba4500a56910314591518a532859f4638042a69453e114d2e925898ccb7fedf0dbafbe5bd4c140302a80322e81ecb282e1#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:9701859354baf55024799d07a0a06f4d1bb732ada3b71e0568753b052ddc67390aa91b670319bd5f82e0002301d372a6070b6e5df1c772519f176aabe8f11c5c#npm:3.0.0-rc.15"],\
             ["@yarnpkg/pnpify", "npm:4.0.0-rc.27"],\
             ["esbuild", "npm:0.15.12"],\
             ["react", "npm:18.2.0"]\
@@ -890,7 +891,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/foundation/",\
           "packageDependencies": [\
             ["@team-comit/foundation", "workspace:packages/foundation"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:2a35fa9f3fefc304221a1e8edc7b10ba4500a56910314591518a532859f4638042a69453e114d2e925898ccb7fedf0dbafbe5bd4c140302a80322e81ecb282e1#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:9701859354baf55024799d07a0a06f4d1bb732ada3b71e0568753b052ddc67390aa91b670319bd5f82e0002301d372a6070b6e5df1c772519f176aabe8f11c5c#npm:3.0.0-rc.15"],\
             ["esbuild", "npm:0.15.12"]\
           ],\
           "linkType": "SOFT"\
@@ -905,7 +906,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.21"],\
             ["@types/react-dom", "npm:18.0.8"],\
             ["@types/styled-components", "npm:5.1.26"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:2a35fa9f3fefc304221a1e8edc7b10ba4500a56910314591518a532859f4638042a69453e114d2e925898ccb7fedf0dbafbe5bd4c140302a80322e81ecb282e1#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:9701859354baf55024799d07a0a06f4d1bb732ada3b71e0568753b052ddc67390aa91b670319bd5f82e0002301d372a6070b6e5df1c772519f176aabe8f11c5c#npm:3.0.0-rc.15"],\
             ["@yarnpkg/pnpify", "npm:4.0.0-rc.27"],\
             ["esbuild", "npm:0.15.12"],\
             ["react", "npm:18.2.0"],\
@@ -1156,10 +1157,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:2a35fa9f3fefc304221a1e8edc7b10ba4500a56910314591518a532859f4638042a69453e114d2e925898ccb7fedf0dbafbe5bd4c140302a80322e81ecb282e1#npm:3.0.0-rc.15", {\
-          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-9c11c5fb21/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-04da15355a.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+        ["virtual:9701859354baf55024799d07a0a06f4d1bb732ada3b71e0568753b052ddc67390aa91b670319bd5f82e0002301d372a6070b6e5df1c772519f176aabe8f11c5c#npm:3.0.0-rc.15", {\
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-f8fd208106/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-04da15355a.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:2a35fa9f3fefc304221a1e8edc7b10ba4500a56910314591518a532859f4638042a69453e114d2e925898ccb7fedf0dbafbe5bd4c140302a80322e81ecb282e1#npm:3.0.0-rc.15"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:9701859354baf55024799d07a0a06f4d1bb732ada3b71e0568753b052ddc67390aa91b670319bd5f82e0002301d372a6070b6e5df1c772519f176aabe8f11c5c#npm:3.0.0-rc.15"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.15.12"],\
             ["tslib", "npm:2.4.0"]\

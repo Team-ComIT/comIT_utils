@@ -708,6 +708,7 @@ __metadata:
   resolution: "@team-comit/emotion-theme@workspace:packages/emotion-theme"
   dependencies:
     "@emotion/react": ^11.10.5
+    "@team-comit/foundation": "workspace:^"
     "@types/react": ^18.0.21
     "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.15
     "@yarnpkg/pnpify": ^4.0.0-rc.27
@@ -716,7 +717,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@team-comit/foundation@workspace:*, @team-comit/foundation@workspace:packages/foundation":
+"@team-comit/foundation@workspace:*, @team-comit/foundation@workspace:^, @team-comit/foundation@workspace:packages/foundation":
   version: 0.0.0-use.local
   resolution: "@team-comit/foundation@workspace:packages/foundation"
   dependencies:
