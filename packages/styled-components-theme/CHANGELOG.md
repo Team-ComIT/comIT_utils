@@ -1,5 +1,11 @@
 # @team-comit/styled-components-theme
 
+## 1.0.2
+
+### Patch Changes
+
+- 92e704b: theme type fix
+
 ## 1.0.1
 
 ### Patch Changes
